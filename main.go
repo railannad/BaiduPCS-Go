@@ -1337,7 +1337,7 @@ func main() {
 						[]string{"md5", strMd5},
 						[]string{"前256KB切片的md5", strSliceMd5},
 						[]string{"crc32", strCrc32},
-						[]string{"秒传命令", app.Name + " rapidupload -length=" + strLength + " -md5=" + strMd5 + " -slicemd5=" + strSliceMd5 + " -crc32=" + strCrc32 + " " + fileName},
+						[]string{"秒传命令", app.Name + " rapidupload -length=" + strLength + " -md5=" + strMd5 + " -slicemd5=" + strSliceMd5 + " -crc32=" + strCrc32 + " " + \"fileName\"},
 					})
 					tb.Render()
 					fmt.Printf("\n")
